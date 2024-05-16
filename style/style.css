@@ -1,0 +1,81 @@
+h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00284e;
+}
+
+body {
+    background: #7ed4bb;
+}
+
+header {
+    background: #3baa8b;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mission {
+    display: inline-block;
+    background: #559de0;
+    color: #fff;
+    width: 50%;
+}
+
+.mission h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mission p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.camera {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -170px;
+    width: 90%;
+}
+
+.images {
+    background: #39aa75;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: #1886ec;
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .mission{
+        padding-bottom: 60px;
+    }
+
+    .camera img {
+        width: 50%;
+        margin-top: -60px;
+        margin-right: -30px
+    }
+
+    .images {
+        display: inline;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+
+    .images {
+        display: inline;
+    }
+
+}
